@@ -226,4 +226,4 @@ lto = "fat"
 codegen-units = 1
 
 [patch.crates-io]
-ethereum = { path = "../../ethereum"}
+ethereum = { git = "https://github.com/OxHainan/ethereum.git", branch = "tenet" }
